@@ -9,7 +9,7 @@ Por ejemplo:
 Si tenemos [“hola”, “Php”, “Html”] devolverá true si preguntamos por “h” pero falso si preguntamos por “l”.
 */
 
-$x = ["hopa", "php", "hpml"];
+$x = ["hola", "php", "html"];
 
 function inChar($arr, $char): bool
 {
@@ -43,3 +43,5 @@ var_dump(inChar($x, "p"));
         place-content: center;
     }
 </style>
+
+<!-- //TODO: pendiente -->
