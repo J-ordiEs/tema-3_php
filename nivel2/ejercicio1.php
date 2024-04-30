@@ -6,9 +6,13 @@ La intersección de los dos arrays (números en común)
 La mezcla de ambos arrays.
 */
 
-$numerosNaturales = [1, 2, 3, 4, 5];
-$numerosFlotantes = [2.3, 3.4, 5.6, 7.8, 9.1];
+$numerosNaturales1 = [1, 2, 3, 4, 5];
+$numerosNaturales2 = [6, 7, 3, 4, 1];
 
-$arrayConbinado = array_merge($numerosNaturales, $numerosFlotantes);
+$numerosEnComun = array_intersect($numerosNaturales1, $numerosNaturales2);
+
+var_dump($numerosEnComun);
+
+$arrayConbinado = array_merge($numerosNaturales1, $numerosNaturales2);
 
 var_dump($arrayConbinado);
